@@ -22,3 +22,21 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+
+.blueBox {
+width: 100px;
+height: 100px;
+background: blue;
+}
+
+:global .red-box {
+width: 100px;
+height: 100px;
+background: red;
+}
+
+.whiteText {
+color: white;
+}
+
